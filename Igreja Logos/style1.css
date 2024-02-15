@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+
+.caixa-fundo img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.mascara-fundo {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(1, 136, 176, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(0, 163, 205, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(1, 1, 20, 1) 100%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+
+button {
+
+    color: white;
+    background-color: rgb(39, 39, 110);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    color: rgb(39, 39, 110);
+
+
+}
+
+.acoes {
+    color: rgb(39, 39, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.acoes :hover {
+    color: white;
+    font-size: 26px;
+    transition: 1s ease-in-out;
+
+}
+
+p {
+
+    color: rgb(39, 39, 110);
+    font-size: 30px;
+
+}
+
+span {
+    color: rgb(224, 39, 10);
+    font-weight: bold;
+}
+
+.imagem-logos {
+    height: 400px;
+}
+
+
+.link-whatsapp img {
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.link-instagram img {
+    height: 85px;
+    position: fixed;
+    right: 20px;
+    bottom: 93px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    top: 10px;
+    position: sticky;
+}
+
+.header img {
+    height: 60px;
+
+
+}
+
+.header a {
+    color: rgb(39, 39, 110);
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: white;
+    font-size: 26px;
+    transition: 1s ease-in-out;
+
+}
+
+.formulario-oracao {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+
+}
+
+input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99)85%);
+    transition: visibility 1s ease-in-out;
+}
